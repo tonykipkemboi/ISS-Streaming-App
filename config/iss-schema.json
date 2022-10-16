@@ -1,0 +1,23 @@
+{
+    "schemaName": "iss",
+    "dimensionFieldSpecs": [
+      {
+        "name": "latitude",
+        "dataType": "INT"
+      },
+      {
+        "name": "longitude",
+        "dataType": "INT"
+      },
+      {
+        "name": "message",
+        "dataType": "STRING"
+      }
+    ],
+    "dateTimeFieldSpecs": [{
+      "name": "timestamp",
+      "dataType": "LONG",
+      "format" : "1:MILLISECONDS:EPOCH",
+      "granularity": "1:MILLISECONDS"
+    }]
+  }
